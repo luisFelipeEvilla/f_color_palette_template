@@ -60,8 +60,8 @@ class _ColorPalette extends State<ColorPalette> {
                     onTap: () {
                       setState(() {
                         flex = 2;
-                        flex1 = 2;
-                        flex2 = 6;
+                        flex1 = 6;
+                        flex2 = 2;
                       });
                       widget.callback(widget.baseColor1);
                     },
