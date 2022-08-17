@@ -20,6 +20,7 @@ class ColorSelectionPage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Color palette app'),
+          backgroundColor: ColorUtils.FromHex('#277BC0'),
           actions: [
             IconButton(onPressed: showDialog, icon: Icon(Icons.info_outline))
           ],
